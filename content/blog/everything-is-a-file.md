@@ -1,9 +1,8 @@
 ---
 title: Everything is a file
 date: "2021-04-11T09:32:32.169Z"
-template: "post"
 draft: false
-slug: "/posts/everything-is-a-file/"
+slug: "/everything-is-a-file/"
 category: "JavaScript"
 tags:
   - "Explainer"

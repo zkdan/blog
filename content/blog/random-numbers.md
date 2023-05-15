@@ -1,9 +1,8 @@
 ---
 title: Why do we get random numbers that way in JavaScript?
-date: "2023-05-10T13:49:37.121Z"
-template: "post"
+date: "2023-05-10"
 draft: false
-slug: "/posts/why-do-we-get-random-numbers-that-way-in-javascript/"
+slug: "/why-do-we-get-random-numbers-that-way-in-javascript/"
 category: "JavaScript"
 tags:
   - "Math"

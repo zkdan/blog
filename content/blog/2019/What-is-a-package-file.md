@@ -1,9 +1,7 @@
 ---
 title: What is a package.json file?
 date: "2019-07-03T16:20:37.121Z"
-template: "post"
 draft: false
-slug: "/posts/what-is-package.json/"
 category: "JavaScript"
 tags:
   - "Node.js"
