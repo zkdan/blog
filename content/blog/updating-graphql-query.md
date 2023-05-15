@@ -1,7 +1,7 @@
 ---
 title: Updating GraphQL
 date: "2023-05-13"
-draft: false
+draft: true
 # slug: "/updating-graphql-query-in-gatsby-starter/"
 category: "JavaScript"
 tags:
