@@ -2,7 +2,7 @@ import React from 'react';
 import { useStaticQuery, graphql } from "gatsby"
 import {Link} from 'gatsby';
 import Icon from './icon.js';
-const Sidebar =({})=>{
+const Sidebar =()=>{
   const { site } = useStaticQuery(
     graphql`
       query {

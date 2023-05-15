@@ -361,6 +361,7 @@ aside p{
   margin-bottom: var(--spacing-0);
   min-width: 50px;
   border-radius: 100%;
+  background-color: pink;
 }
 
 .blog-post header h1 {
