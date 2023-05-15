@@ -6,7 +6,7 @@ import Seo from "../components/seo"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes.filter(post => post.frontmatter.draft === false);
+  const posts = data.allMarkdownRemark.nodes;
 
   if (posts.length === 0) {
     return (
@@ -78,7 +78,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
+    allMarkdownRemark(
+      sort: {frontmatter: {date: DESC}}
+      filter: {frontmatter: {draft: {eq: false}}}
+    )  {
       nodes {
         excerpt
         fields {
@@ -88,7 +91,6 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
-          draft
         }
       }
     }
