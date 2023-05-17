@@ -1,6 +1,6 @@
 ---
 title: Expressions vs. statements
-date: "2019-06-12T17:32:32.169Z"
+date: "2022-06-12"
 template: "post"
 draft: false
 slug: "/posts/expressions-v-statements/"

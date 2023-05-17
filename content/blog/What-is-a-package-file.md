@@ -1,6 +1,6 @@
 ---
 title: What is a package.json file?
-date: "2019-07-03T16:20:37.121Z"
+date: "2021-09-22"
 draft: false
 category: "JavaScript"
 tags:

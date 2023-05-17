@@ -35,7 +35,7 @@ const BlogIndex = ({ data, location }) => {
               >
                 <header>
                   <div className="post-info">
-                  <p>{post.frontmatter.date}</p>
+                  {/* <p>{post.frontmatter.date}</p> */}
             
                   </div>
 
