@@ -31,7 +31,6 @@ const Sidebar =()=>{
         <Link to={`/`}>{site.siteMetadata.author.name}</Link>
       </h1>
       <p className="tagline">{site.siteMetadata.author.summary}</p>
-      {console.log(site.siteMetadata.social)}
       <ul className="socials">
         {socials}
       </ul>

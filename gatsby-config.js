@@ -12,7 +12,7 @@ module.exports = {
     title: `Zoe Daniels`,
     author: {
       name: `Zoe Daniels`,
-      summary: `writer, instructor, web developer`,
+      summary: `javascript developer | technical writer | web development instructor`,
     },
     description: `A blog by Zoe Daniels`,
     siteUrl: `https://zoecodes.com/`,
@@ -103,7 +103,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Zoe Daniels RSS Feed",
           },
         ],
       },
@@ -111,8 +111,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `Gatsby`,
+        name: `Zoe Daniels Blog`,
+        short_name: `Zoe Daniels`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website

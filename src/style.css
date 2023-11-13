@@ -380,6 +380,50 @@ aside p{
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
 }
+.projects {
+  list-style-type: none;
+  margin: var(--spacing-0);
+  padding: var(--spacing-0);
+  margin-top: 1rem;
+}
+.projects > *{
+  margin: .2rem;
+  
+}
+.projects li > p:first-child{
+  font-weight: bold;
+  margin-bottom: var(--spacing-0);
+}
+.projects li{
+  margin-top: 1.5rem;
+  width: 80%;
+}
+
+.projects .link-container a{
+  background-color: pink;
+  padding: .2rem .4rem;
+  color:black;
+  text-decoration: none;
+  text-decoration-line: none;
+  transition:all .3s ease-in-out;
+  &:hover, &:focus{
+    background-color: #fff;
+  }
+
+}
+.projects .link-container a:nth-of-type(2n){
+  margin-left: 1rem;
+}
+
+.roles  {
+  display: flex;
+  font-style:italic;
+}
+.roles p{
+  margin-bottom: 0;
+  margin-right: 1rem;
+  font-variant: small-caps;
+}
 
 /* Media queries */
 @media (max-width: 70rem) {
