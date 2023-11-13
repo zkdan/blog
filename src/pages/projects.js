@@ -14,8 +14,8 @@ return(
             </div>
             <p>A gene-first visualization tool for plant genomes.</p>
             <div class="link-container">
-              <a href="">Live link</a>
-              <a href="">GitHub link</a>
+              <a href="https://bioanalyticresource.github.io/ePlant/">Live link</a>
+              <a href="https://github.com/BioAnalyticResource/ePlant">GitHub link</a>
             </div>
           </li>
           <li>
