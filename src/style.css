@@ -363,6 +363,11 @@ aside p{
   border-radius: 100%;
   background-color: pink;
 }
+.tagline{
+  font-variant: small-caps;
+  font-weight: normal;
+  font-style: italic;
+}
 
 .blog-post header h1 {
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
