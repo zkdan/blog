@@ -30,7 +30,7 @@ return(
               <a href="https://github.com/zkdan/cryptoquote">GitHub link</a>
             </div>
           </li>
-          <li>
+          {/* <li>
             <p>Little Open Library</p>
             <div className="roles">
               <p>developer</p>
@@ -41,7 +41,7 @@ return(
               <a href="https://leafy-buttercream-594bfb.netlify.app">Live link</a>
               <a href="https://github.com/zkdan/little-open-library">GitHub link</a>
             </div>
-          </li>
+          </li> */}
           <li>
             <p>lariat.work</p>
             <div className="roles">
