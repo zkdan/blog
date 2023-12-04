@@ -277,7 +277,6 @@ a:focus {
 
 aside  {
   box-shadow: 1px 0 20px pink;
-  max-width:18rem;
   font-weight: bold;
   text-shadow: -1px -1px white; 
   position: sticky;
@@ -446,6 +445,7 @@ aside p{
    flex-direction:column;
    width: 100%;
   }
+
   aside{
     max-width:100vw;
     background-image: url('./images/raccoos-horz.png');  
