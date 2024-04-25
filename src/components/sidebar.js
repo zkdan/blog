@@ -1,8 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from "gatsby"
 import {Link} from 'gatsby';
-import Icon from './icon.js';
-import CV from './../images/zoe-daniels-cv-11-2023.pdf'
+import CV from './../images/zoe-daniels-cv-04-2024.pdf'
 const Sidebar =()=>{
   const { site } = useStaticQuery(
     graphql`
@@ -14,7 +13,7 @@ const Sidebar =()=>{
               name
             }
             social {
-              twitter
+              linkedin
               github
             }
           }

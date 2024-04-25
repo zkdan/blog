@@ -60,11 +60,12 @@
   --color-accent: #d1dce5; */
   /* pallette 1 */
 
-  --color-primary: pink; 
+  --color-primary: rgb(248, 105, 196); 
+  --color-secondary: rgb(255, 255, 255, .3); 
   --color-text: #2e353f; 
   --color-text-light: #4f5969; 
   --color-heading: #1a202c;
-  --color-heading-black: black;
+  --color-heading-black: black; 
   --color-accent: #d1dce5;
 }
 
@@ -87,6 +88,9 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
+}
+img{
+  max-width:100%;
 }
 
 footer {
@@ -285,6 +289,8 @@ aside  {
   background-image: url('./images/raccoos-vert.png');
   background-size: cover;
   padding: 0;
+  background-color:  var(--color-secondary);
+  background-blend-mode: screen;
 }
 aside h1{
   padding-left:var(--spacing-2);

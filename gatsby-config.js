@@ -12,13 +12,13 @@ module.exports = {
     title: `Zoe Daniels`,
     author: {
       name: `Zoe Daniels`,
-      summary: `javascript developer | technical writer | web development instructor`,
+      summary: `javascript developer | educator`,
     },
     description: `A blog by Zoe Daniels`,
     siteUrl: `https://zoecodes.com/`,
     social: {
-      twitter: `https://twitter.com/zoecodes`,
-      github:`https://github.com/zkdan`
+      github:`https://github.com/zkdan`,
+      linkedin:`https://www.linkedin.com/in/zoe-daniels-26830749/`
     },
   },
   plugins: [

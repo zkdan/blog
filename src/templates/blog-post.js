@@ -49,7 +49,8 @@ const BlogPostTemplate = ({
             )}
           </li>
           <li>
-            {next && (
+          {console.log(next)}
+            {!next.fields.slug.includes('draft') && (
               <Link to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
               </Link>
